@@ -14,8 +14,8 @@ require Exporter;
 $VERSION = sprintf "%d.%02d", q$Revision: 1.0 $ =~ m#(\d+)\.(\d+)#;
 
 use Carp;
-use Time::DaysInMonth;
-use Time::JulianDay;
+require Time::DaysInMonth;
+require Time::JulianDay;
 
 my %data;
 

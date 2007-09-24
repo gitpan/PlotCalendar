@@ -4,7 +4,7 @@
 
 $NAME     = 'PlotCalendar';
 $DISTNAME = "PlotCalendar";
-$VERSION  = "1.1";
+$VERSION  = "1.2";
 
 BEGIN { require 5.001 }
 
