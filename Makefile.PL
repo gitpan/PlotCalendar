@@ -4,7 +4,7 @@
 
 $NAME     = 'PlotCalendar';
 $DISTNAME = "PlotCalendar";
-$VERSION  = "1.2";
+$VERSION  = "1.3";
 
 BEGIN { require 5.001 }
 
@@ -41,6 +41,7 @@ WriteMakefile(
 	VERSION   => $VERSION,
 	DISTNAME  => $DISTNAME,
 	NAME      => $NAME,
+	PREREQ_PM => {'Time::DaysInMonth' => 1.0,},
  
 	'dist'    => {COMPRESS => 'gzip -9f',
 		      SUFFIX   => '.gz', 
